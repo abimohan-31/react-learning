@@ -5,16 +5,17 @@ import Header from "./components/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import HomeCard from "./components/HomeCard";
 
 function App() {
   return (
     <>
       <Header />
       <div>
-        <HomeCard url="about" />
-        <HomeCard url="contact" />
-        <HomeCard url="login" />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
       <Footer />
     </>

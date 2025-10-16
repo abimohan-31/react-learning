@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <>
       <div style={style.container}>
-        <h1>Header components</h1>
+        <h1>
+          <Link to="/">Header components</Link>
+        </h1>
       </div>
     </>
   );
