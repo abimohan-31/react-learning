@@ -1,11 +1,22 @@
 function Header() {
   return (
     <>
-      <div>
+      <div style={style.container}>
         <h1>Header components</h1>
       </div>
     </>
   );
 }
-
+const style = {
+  container: {
+    backgroundColor: "#1d293d",
+    height: "50px",
+    marginBottom: "20px",
+    color: "white",
+    textAlign: "center",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+};
 export default Header;
