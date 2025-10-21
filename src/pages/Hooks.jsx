@@ -6,12 +6,12 @@ function Hooks() {
   return (
     <>
       <div>
-        <UseEffect />
+        <UseState />
         <br />
         <hr />
-        <UseState />
+        <UseEffect />
       </div>
-      ;
+      
     </>
   );
 }
