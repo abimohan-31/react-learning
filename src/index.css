@@ -1,6 +1,6 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 body {
-    margin: 0;
-    padding-bottom: 50px;
+  margin: 0;
+  padding-bottom: 50px;
 }
