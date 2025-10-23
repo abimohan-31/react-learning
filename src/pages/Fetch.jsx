@@ -1,22 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import JsonPlaceholder from "../componensts/fetch/JsonPlaceholder";
 
 function Fetch() {
-  const [users, setUsers] = useState([]);
-
-  const fetchUsers = async () => {
-    const response = await fetch("https://jsonplaceholder.typicode.com/users");
-    const userData = await response.json();
-    console.log(userData);
-    setUsers(userData);
-  };
-  useEffect(() => {
-    fetchUsers();
-  }, []);
-
   return (
-    <div>
-     
-    </div>
+    <>
+      <JsonPlaceholder />
+    </>
   );
 }
 
