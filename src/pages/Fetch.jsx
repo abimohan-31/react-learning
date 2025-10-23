@@ -9,10 +9,15 @@ function Fetch() {
     console.log(userData);
     setUsers(userData);
   };
+  useEffect(() => {
+    fetchUsers();
+  }, []);
 
-  useEffect(fetchUsers);
-
-  return <div>Fetch</div>;
+  return (
+    <div>
+     
+    </div>
+  );
 }
 
 export default Fetch;
