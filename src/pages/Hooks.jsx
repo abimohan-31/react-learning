@@ -6,7 +6,7 @@ function Hooks() {
   return (
     <>
       <div>
-        <UseState />
+        {/* <UseState /> */}
         <br />
         <hr />
         <UseEffect />
