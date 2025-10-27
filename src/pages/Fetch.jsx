@@ -5,8 +5,8 @@ import LocalAPI from "../componensts/fetch/LocalAPI";
 function Fetch() {
   return (
     <>
-      {/* <JsonPlaceholder /> */}
-      <LocalAPI />
+      <JsonPlaceholder />
+      {/* <LocalAPI /> */}
     </>
   );
 }
