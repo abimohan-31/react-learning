@@ -40,15 +40,13 @@ function FetchData() {
 
         <tbody>
           {users.map((user) => (
-           
-              <tr key={user._id}>
-                <td>{user.name}</td>
-                <td>{user.email}</td>
-                <td>{user.isActive}</td>
-                <td>{user.createdAt}</td>
-                <td>{user.updatedAt}</td>
-              </tr>
-          
+            <tr key={user._id}>
+              <td>{user.name}</td>
+              <td>{user.email}</td>
+              <td>{user.isActive ? "Yes" : "No"}</td>
+              <td>{user.createdAt}</td>
+              <td>{user.updatedAt}</td>
+            </tr>
           ))}
         </tbody>
       </table>
