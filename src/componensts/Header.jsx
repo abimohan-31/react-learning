@@ -34,6 +34,9 @@ function Header() {
         <Link to="/fetch" style={style.navLink}>
           Fetch
         </Link>
+        <Link to="/axios" style={style.navLink}>
+          Axios
+        </Link>
       </nav>
     </header>
   );
