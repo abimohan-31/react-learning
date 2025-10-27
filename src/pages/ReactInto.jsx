@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function ReactInto() {
   return (
-    <div>React Into</div>
-  )
+    <div className="content-container">
+      <h1>React Intro</h1>
+    </div>
+  );
 }
 
-export default ReactInto
+export default ReactInto;
