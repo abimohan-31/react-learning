@@ -1,12 +1,16 @@
 import React from "react";
 import JsonPlaceholder from "../componensts/fetch/JsonPlaceholder";
 import LocalAPI from "../componensts/fetch/LocalAPI";
+import ApiCall from "../componensts/fetch/ApiCall";
 
 function Fetch() {
   return (
     <>
-      <JsonPlaceholder />
-      {/* <LocalAPI /> */}
+      <div >
+        {/* <JsonPlaceholder /> */}
+        {/* <LocalAPI /> */}
+        <ApiCall />
+      </div>
     </>
   );
 }
