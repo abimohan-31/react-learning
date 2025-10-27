@@ -4,7 +4,7 @@ import RegisterForm from "../componensts/forms/RegisterForm";
 
 function Forms() {
   return (
-    <div>
+    <div className="content-container">
       {/* <StudentForm /> */}
       <RegisterForm />
     </div>

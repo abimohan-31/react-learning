@@ -5,13 +5,12 @@ import UseState from "../componensts/hooks/UseState";
 function Hooks() {
   return (
     <>
-      <div>
+      <div className="content-container">
         {/* <UseState /> */}
         <br />
         <hr />
         <UseEffect />
       </div>
-      
     </>
   );
 }
