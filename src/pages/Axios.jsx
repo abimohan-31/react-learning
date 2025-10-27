@@ -9,8 +9,8 @@ function Axios() {
         <div className="content-container">
           <h1>Axios</h1>
         </div>
-        <FetchData />
         <PostData />
+        <FetchData />
       </div>
     </>
   );
