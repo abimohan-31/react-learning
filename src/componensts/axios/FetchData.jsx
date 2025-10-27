@@ -44,7 +44,15 @@ function FetchData() {
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>{user.isActive ? "Yes" : "No"}</td>
-              <td>{user.createdAt}</td>
+              <td>
+                {new Date(user.createdAt).toLocaleString("en-US", {
+                  month: "long",
+                  year: "numeric",
+                  weekday: "long",
+                  hour: "numeric",
+                  minute: "numeric",
+                })}
+              </td>
               <td>{user.updatedAt}</td>
             </tr>
           ))}
